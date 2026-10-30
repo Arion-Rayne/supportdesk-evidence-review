@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "error_code": "invalid_output",
+  "error_message": "The model output or citations failed validation; human review is required.",
+  "usage": {
+    "input_tokens": 3181,
+    "input_tokens_details": {
+      "cache_write_tokens": 3178,
+      "cached_tokens": 0
+    },
+    "output_tokens": 373,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3554
+  },
+  "automatic_retry": false,
+  "model_called": true,
+  "model_name": "gpt-6-luna",
+  "estimated_list_price_usd": 0.00058405,
+  "actual_provider_bill_usd": null,
+  "scope": "One English request on a previously seen synthetic question; the provider response did not pass validation.",
+  "failure_detail": "The invalid response was not stored; the precise validation cause is unknown."
+}

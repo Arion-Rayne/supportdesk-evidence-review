@@ -1,0 +1,25 @@
+{
+  "question": "My browser query returns an empty array. Could this be a permissions issue?",
+  "actual_model_draft": "An empty array does not necessarily mean the request has a permissions problem. A missing table grant raises a permission error before Row Level Security (RLS) is evaluated; a policy that matches no rows can instead return an empty result. Please check whether the request returns an error and verify the table grants for the role used by your browser request before investigating the RLS policy. The available information does not establish the cause of your empty result.",
+  "source_model": "gpt-6-luna",
+  "source_run_id": "4828b1fb-4f7d-4b3d-8460-51937650a1bc",
+  "source_segment_ids": [
+    "a27a628d2e699f97d976",
+    "ba0e873f99d1fafb3133"
+  ],
+  "usage": {
+    "input_tokens": 837,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1060
+  },
+  "source_result_sha256": "1e2520941723894f8e98d8e3d633f5366aebaeb9d43640f5ac0eba13bc69be7c",
+  "source_draft_sha256": "00536e2e179fc504c60333ede05b964a27a88673895e6c3f7eb1a4252f0640e9",
+  "scope": "Real English model response from the original project, generated before the English release; not a validation of the current translated prompt."
+}

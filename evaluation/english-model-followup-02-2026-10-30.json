@@ -1,0 +1,205 @@
+{
+  "status": "success",
+  "attempt": 2,
+  "scope": "Previously seen English development case.",
+  "recorded_at_utc": "2026-10-30T01:28:44.302490+00:00",
+  "generation": {
+    "ticket_id": "9a5d23d7-8ae6-42db-a500-868657150d69",
+    "run_id": "ccf99899-7555-4e0a-8e08-42974aa3eccd",
+    "topic": "Secret keys in frontend environment variables",
+    "draft": "No. Do not put a secret key in frontend environment variables: frontend code is delivered to the browser, and secret keys must never be placed in a browser or shipped application. Keep secret keys only in secure, developer-controlled components. A secret key bypasses RLS when a request has no user access token; if the request carries a signed-in user's access token, it runs under that user's RLS policies instead. [57a134af9256e047477b] [3c1260041656e577e619]",
+    "citations": [
+      {
+        "url": "https://supabase.com/docs/guides/getting-started/api-keys#secret-keys-and-elevated-access",
+        "text": "A secret key bypasses every Row Level Security policy you have. Never put one in a browser, a shipped application, or source control. For the full list of places a secret key must never go, see [Handling secret keys safely](https://supabase.com/docs/guides/getting-started/api-keys#handling-secret-keys-safely).",
+        "score": 12.848,
+        "title": "API keys",
+        "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+        "context": {
+          "text": "Unlike publishable keys, secret keys allow elevated access to your project's data. Use them only in secure, developer-controlled components of your application, such as:\n\n- Servers that run their own authorization checks, such as Edge Functions, microservices, and web servers.\n- Periodic jobs, queue processors, topic subscribers.\n- Admin and back-office tools that run authorization checks first.\n- Data processing pipelines, such as for analytics, reports, backups, or database synchronization.\n\nA secret key bypasses every Row Level Security policy you have. Never put one in a browser, a shipped application, or source control. For the full list of places a secret key must never go, see [Handling secret keys safely](https://supabase.com/docs/guides/getting-started/api-keys#handling-secret-keys-safely).\n\nSecret keys authorize access to your project's data through the built-in `service_role` Postgres role. By design, this role has full access to your project's data. It also has the [`BYPASSRLS` attribute](https://www.postgresql.org/docs/current/ddl-rowsecurity.html#:~:text=BYPASSRLS), so it skips every Row Level Security policy you attach.\n\nSecret keys improve on the old JWT-based `service_role` key, and we recommend them wherever possible. They add checks that prevent misuse:\n\n- A secret key doesn't work in a browser. Supabase matches on the `User-Agent` header and returns HTTP 401 Unauthorized.\n- A project doesn't need any secret keys if nothing uses them.",
+          "line_start": 94,
+          "line_end": 112,
+          "segments": [
+            {
+              "segment_id": "a5677fd86b48046b07f6",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 94,
+              "line_end": 94
+            },
+            {
+              "segment_id": "9cb0dc0b21cd9b1a6af5",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 96,
+              "line_end": 99
+            },
+            {
+              "segment_id": "57a134af9256e047477b",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 103,
+              "line_end": 103
+            },
+            {
+              "segment_id": "266343a110194e3f8c41",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 107,
+              "line_end": 107
+            },
+            {
+              "segment_id": "c1d81c8d40bf9202591f",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 109,
+              "line_end": 109
+            },
+            {
+              "segment_id": "e8103b668520ab567151",
+              "source_id": "keys",
+              "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+              "local_file": "data/raw/keys.mdx",
+              "line_start": 111,
+              "line_end": 112
+            }
+          ],
+          "policy": "same-section-neighbours-v1"
+        },
+        "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/getting-started/api-keys.mdx",
+        "section": "How API keys work / Secret keys and elevated access",
+        "line_end": 103,
+        "source_id": "keys",
+        "line_start": 103,
+        "local_file": "data/raw/keys.mdx",
+        "segment_id": "57a134af9256e047477b",
+        "document_id": "keys",
+        "included_by": null,
+        "matched_terms": [
+          "browser",
+          "secret",
+          "key",
+          "put"
+        ],
+        "fetched_at_utc": "2026-10-01T10:51:18.577017+00:00"
+      },
+      {
+        "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+        "text": "A secret key bypasses RLS only when the request carries no user access token. If the request carries one, it runs under the RLS policies of that signed-in user, even when the client library was initialized with a secret key.",
+        "score": 7.2563,
+        "title": "Row Level Security",
+        "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+        "context": {
+          "text": "Use a [secret key](https://supabase.com/docs/guides/getting-started/api-keys) for administrative tasks that need to bypass RLS. A secret key authorizes access through the `service_role` Postgres role, which has the `bypassrls` attribute. Never use a secret key in the browser or expose it to customers.\n\nThe JWT-based `service_role` key is a legacy alternative. Prefer a secret key where possible.\n\nA secret key bypasses RLS only when the request carries no user access token. If the request carries one, it runs under the RLS policies of that signed-in user, even when the client library was initialized with a secret key.\n\nYou can also create new [Postgres Roles](https://supabase.com/docs/guides/database/postgres/roles) which can bypass Row Level Security using the \"bypass RLS\" privilege:\n\n```sql\nalter role \"role_name\" with bypassrls;\n```\n\nThis can be useful for system-level access. **Never** share login credentials for any Postgres Role with this privilege.",
+          "line_start": 752,
+          "line_end": 768,
+          "segments": [
+            {
+              "segment_id": "05bc0ed80ccd928f71e8",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 752,
+              "line_end": 752
+            },
+            {
+              "segment_id": "c4e455338d4d05ae340e",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 754,
+              "line_end": 754
+            },
+            {
+              "segment_id": "3c1260041656e577e619",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 758,
+              "line_end": 758
+            },
+            {
+              "segment_id": "74f0cd24be1cc744fabe",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 762,
+              "line_end": 762
+            },
+            {
+              "segment_id": "bc489760abbbfe77ffdd",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 764,
+              "line_end": 766
+            },
+            {
+              "segment_id": "d8b92478b4623f2ed780",
+              "source_id": "rls",
+              "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+              "local_file": "data/raw/rls.mdx",
+              "line_start": 768,
+              "line_end": 768
+            }
+          ],
+          "policy": "same-section-neighbours-v1"
+        },
+        "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/database/postgres/row-level-security.mdx",
+        "section": "RLS reference / Bypassing Row Level Security",
+        "line_end": 758,
+        "source_id": "rls",
+        "line_start": 758,
+        "local_file": "data/raw/rls.mdx",
+        "segment_id": "3c1260041656e577e619",
+        "document_id": "rls",
+        "included_by": null,
+        "matched_terms": [
+          "secret",
+          "key"
+        ],
+        "fetched_at_utc": "2026-10-01T10:51:18.661234+00:00",
+        "selection_reason": "Include the secret key and user-token qualification"
+      }
+    ],
+    "missing_information": [],
+    "needs_review": true,
+    "review_reason": "Human review is required before sending.",
+    "status": "success",
+    "model_called": true,
+    "provider": "openai",
+    "requested_model": "gpt-6-luna",
+    "model_name": "gpt-6-luna",
+    "usage": {
+      "input_tokens": 3181,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 3178
+      },
+      "output_tokens": 176,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3357
+    },
+    "latency_ms": 4574.047700036317,
+    "output_language": "en",
+    "call_id": "397d0aa4-487e-46da-94e0-d557e82648c3",
+    "retrieval_method": "keyword",
+    "question": "Can I put my secret key in frontend environment variables?",
+    "method": "keyword+model"
+  },
+  "code_hashes": {
+    "app/generation_contract.py": "d38f24ba162b79b61e5293d3fbd3407ebf58bb409e2bd492f4ba44804d26697e",
+    "app/model_gateway.py": "89242ab6a317ba0a1635827a93c27de5f9e3c5065259121f8cc8a46232215cb4"
+  },
+  "readback_verified": true,
+  "human_approval": false,
+  "estimated_list_price_usd": 0.00012008,
+  "actual_provider_bill_usd": null
+}

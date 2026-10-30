@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "attempt": 3,
+  "error_code": "invalid_schema",
+  "error_message": "The model response failed schema validation in: other.",
+  "usage": {
+    "input_tokens": 3181,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3178
+    },
+    "output_tokens": 384,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3565
+  },
+  "code_hashes": {
+    "app/generation_contract.py": "d38f24ba162b79b61e5293d3fbd3407ebf58bb409e2bd492f4ba44804d26697e",
+    "app/model_gateway.py": "89242ab6a317ba0a1635827a93c27de5f9e3c5065259121f8cc8a46232215cb4"
+  },
+  "estimated_list_price_usd": 0.00022408,
+  "automatic_retry": false
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "source_id": "partial_api_keys_deprecation",
+    "title": "API keys deprecation notice",
+    "url": "https://github.com/supabase/supabase/blob/master/apps/docs/content/_partials/api_keys_deprecation.mdx",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/_partials/api_keys_deprecation.mdx",
+    "local_file": "data/raw/partials/api_keys_deprecation.mdx"
+  },
+  {
+    "source_id": "partial_providers",
+    "title": "Authentication providers",
+    "url": "https://github.com/supabase/supabase/blob/master/apps/docs/content/_partials/providers.mdx",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/_partials/providers.mdx",
+    "local_file": "data/raw/partials/providers.mdx"
+  }
+]

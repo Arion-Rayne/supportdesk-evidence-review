@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "rls",
+    "title": "Row Level Security",
+    "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/database/postgres/row-level-security.mdx",
+    "local_file": "data/raw/rls.mdx"
+  },
+  {
+    "source_id": "storage",
+    "title": "Storage Access Control",
+    "url": "https://supabase.com/docs/guides/storage/security/access-control",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/storage/security/access-control.mdx",
+    "local_file": "data/raw/storage.mdx"
+  },
+  {
+    "source_id": "connection",
+    "title": "Connect to your database",
+    "url": "https://supabase.com/docs/guides/database/connecting-to-postgres",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/database/connecting-to-postgres.mdx",
+    "local_file": "data/raw/connection.mdx"
+  },
+  {
+    "source_id": "auth",
+    "title": "Auth overview",
+    "url": "https://supabase.com/docs/guides/auth",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/auth.mdx",
+    "local_file": "data/raw/auth.mdx"
+  },
+  {
+    "source_id": "keys",
+    "title": "API keys",
+    "url": "https://supabase.com/docs/guides/getting-started/api-keys",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/getting-started/api-keys.mdx",
+    "local_file": "data/raw/keys.mdx"
+  }
+]

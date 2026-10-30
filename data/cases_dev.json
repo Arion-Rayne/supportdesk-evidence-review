@@ -1,0 +1,17 @@
+[
+  {
+    "id": "SD-001",
+    "question": "My browser query returns an empty array. Could this be a permissions issue?",
+    "synthetic": true
+  },
+  {
+    "id": "SD-002",
+    "question": "Where should the publishable key and secret key be stored?",
+    "synthetic": true
+  },
+  {
+    "id": "SD-003",
+    "question": "A file upload failed with a permission error. What information should I provide?",
+    "synthetic": true
+  }
+]

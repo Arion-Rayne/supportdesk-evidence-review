@@ -1,0 +1,550 @@
+{
+  "scope": "Assistant-translated, previously seen development questions; not an independent evaluation.",
+  "definition": "At least one preselected reference segment appears in the top three; not answer accuracy.",
+  "model_called": false,
+  "total_cases": 20,
+  "scored_cases": 19,
+  "reference_hits": 13,
+  "results": [
+    {
+      "id": "SD-001",
+      "question": "My browser query returns an empty array. Could this be a permissions issue?",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "0ebdb3522ebce47f3abb",
+        "ba0e873f99d1fafb3133"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#secure-a-table-with-rls",
+          "line": 107
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "id": "SD-002",
+      "question": "Where should the publishable key and secret key be stored?",
+      "top_three_ids": [
+        "88fd07d79e4a1d6c1883",
+        "57a134af9256e047477b",
+        "3c1260041656e577e619"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#key-types",
+          "line": 57
+        },
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#secret-keys-and-elevated-access",
+          "line": 103
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+          "line": 758
+        }
+      ]
+    },
+    {
+      "id": "SD-003",
+      "question": "A file upload failed with a permission error. What information should I provide?",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "ba0e873f99d1fafb3133",
+        "e43c98c2b11a3dfddbab"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        },
+        {
+          "title": "Storage Access Control",
+          "url": "https://supabase.com/docs/guides/storage/security/access-control#access-policies",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SD-004",
+      "question": "How does Supabase Auth relate to database row-level security?",
+      "top_three_ids": [
+        "a90f2d3b04bee2861409",
+        "0ebdb3522ebce47f3abb",
+        "1cb2f38399cddc4fcf47"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "Auth overview",
+          "url": "https://supabase.com/docs/guides/auth#about-authentication-and-authorization",
+          "line": 20
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#secure-a-table-with-rls",
+          "line": 107
+        },
+        {
+          "title": "Auth overview",
+          "url": "https://supabase.com/docs/guides/auth#the-supabase-ecosystem",
+          "line": 28
+        }
+      ]
+    },
+    {
+      "id": "SD-005",
+      "question": "My server cannot connect to the database. Which connection method should I choose?",
+      "top_three_ids": [
+        "88092048e70bb1fe6f5c",
+        "68ce10e015c2f2608dbd",
+        "93b8a15e2cc2702aa834"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres",
+          "line": 9
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#troubleshooting",
+          "line": 261
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#related",
+          "line": 253
+        }
+      ]
+    },
+    {
+      "id": "SD-006",
+      "question": "After enabling RLS I cannot see data. Was the data deleted?",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "ba0e873f99d1fafb3133",
+        "a9ed6f5444d28217109d"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "id": "SD-007",
+      "question": "Where should I configure access so that signed-in users only see their own records?",
+      "top_three_ids": [
+        "667d31e41477d6a78d93",
+        "f9abafa575ece5c05973",
+        "3c1260041656e577e619"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 56
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#write-a-policy-for-each-operation",
+          "line": 244
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+          "line": 758
+        }
+      ]
+    },
+    {
+      "id": "SD-008",
+      "question": "Can I put my secret key in frontend environment variables?",
+      "top_three_ids": [
+        "57a134af9256e047477b",
+        "47d2d97add1686814fe2",
+        "3c1260041656e577e619"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#secret-keys-and-elevated-access",
+          "line": 103
+        },
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 82
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+          "line": 758
+        }
+      ]
+    },
+    {
+      "id": "SD-009",
+      "question": "Why can I still not upload a file after signing in?",
+      "top_three_ids": [
+        "006903afabf62bd8ef52",
+        "85fff292f6ec43c9f344",
+        "e43c98c2b11a3dfddbab"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#use-security-definer-functions",
+          "line": 680
+        },
+        {
+          "title": "Storage Access Control",
+          "url": "https://supabase.com/docs/guides/storage/security/access-control#policy-examples",
+          "line": 53
+        },
+        {
+          "title": "Storage Access Control",
+          "url": "https://supabase.com/docs/guides/storage/security/access-control#access-policies",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SD-010",
+      "question": "Which login methods does Auth support?",
+      "top_three_ids": [
+        "30c757366d5b94fab33b",
+        "21ceb7ffc424dba3e469",
+        "451ac505ea54cf83413c"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "Auth overview",
+          "url": "https://supabase.com/docs/guides/auth",
+          "line": 11
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#authenticated-and-unauthenticated-roles",
+          "line": 93
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#mfa",
+          "line": 629
+        }
+      ]
+    },
+    {
+      "id": "SD-011",
+      "question": "How many dollars of discount will Supabase give me this month?",
+      "top_three_ids": [
+        "68ce10e015c2f2608dbd",
+        "046e4603ee06f469ec7a",
+        "c901f6b4edf9f70e9f59"
+      ],
+      "reference_hit": null,
+      "sources": [
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#troubleshooting",
+          "line": 261
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#enable-rls-and-set-the-grants",
+          "line": 148
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "id": "SD-012",
+      "question": "Please disable the customer’s RLS right now.",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "ba0e873f99d1fafb3133",
+        "a9ed6f5444d28217109d"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "id": "SD-013",
+      "question": "My database password is correct, but the connection still fails.",
+      "top_three_ids": [
+        "68ce10e015c2f2608dbd",
+        "93b8a15e2cc2702aa834",
+        "88092048e70bb1fe6f5c"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#troubleshooting",
+          "line": 261
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#related",
+          "line": 253
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "id": "SD-014",
+      "question": "Is the anon role the same as a Supabase anonymous signed-in user?",
+      "top_three_ids": [
+        "21ceb7ffc424dba3e469",
+        "afaeb5a19f6dc88a575e",
+        "c65dcbc932d72d96ad57"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#authenticated-and-unauthenticated-roles",
+          "line": 93
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#authenticated-and-unauthenticated-roles",
+          "line": 72
+        },
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "id": "SD-015",
+      "question": "If I write a policy, do I still need to configure table grants?",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "a9ed6f5444d28217109d",
+        "ba0e873f99d1fafb3133"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 18
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        }
+      ]
+    },
+    {
+      "id": "SD-016",
+      "question": "Does a secret key obey row-level security?",
+      "top_three_ids": [
+        "57a134af9256e047477b",
+        "da285e1fbc99b0e8df4c",
+        "3c1260041656e577e619"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#secret-keys-and-elevated-access",
+          "line": 103
+        },
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#which-key-do-you-use",
+          "line": 20
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+          "line": 758
+        }
+      ]
+    },
+    {
+      "id": "SD-017",
+      "question": "My network only supports IPv4. How should I connect?",
+      "top_three_ids": [
+        "ad29d8f00f01dbd6fe17",
+        "4751c39454a59ac56cbe",
+        "0ded86a24e20d3ca7a43"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#pooler-session-mode",
+          "line": 69
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#direct-connection",
+          "line": 57
+        },
+        {
+          "title": "Connect to your database",
+          "url": "https://supabase.com/docs/guides/database/connecting-to-postgres#choose-a-connection-method",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "id": "SD-018",
+      "question": "Can I use Supabase Auth as a standalone authentication service?",
+      "top_three_ids": [
+        "97205542b9810ed68644",
+        "a90f2d3b04bee2861409",
+        "21ceb7ffc424dba3e469"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "Auth overview",
+          "url": "https://supabase.com/docs/guides/auth#the-supabase-ecosystem",
+          "line": 24
+        },
+        {
+          "title": "Auth overview",
+          "url": "https://supabase.com/docs/guides/auth#about-authentication-and-authorization",
+          "line": 20
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#authenticated-and-unauthenticated-roles",
+          "line": 93
+        }
+      ]
+    },
+    {
+      "id": "SD-019",
+      "question": "Two tables behave differently even though they use the same key.",
+      "top_three_ids": [
+        "a9ed6f5444d28217109d",
+        "20514d7cceb2736c31e3",
+        "05bc0ed80ccd928f71e8"
+      ],
+      "reference_hit": false,
+      "sources": [
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 18
+        },
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys",
+          "line": 11
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#bypassing-row-level-security",
+          "line": 752
+        }
+      ]
+    },
+    {
+      "id": "SD-020",
+      "question": "I cannot tell whether the failure is in the connection or permissions.",
+      "top_three_ids": [
+        "a27a628d2e699f97d976",
+        "ba0e873f99d1fafb3133",
+        "a9ed6f5444d28217109d"
+      ],
+      "reference_hit": true,
+      "sources": [
+        {
+          "title": "API keys",
+          "url": "https://supabase.com/docs/guides/getting-started/api-keys#postgres-roles-and-row-level-security",
+          "line": 90
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security#grants-and-policies",
+          "line": 66
+        },
+        {
+          "title": "Row Level Security",
+          "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+          "line": 18
+        }
+      ]
+    }
+  ]
+}

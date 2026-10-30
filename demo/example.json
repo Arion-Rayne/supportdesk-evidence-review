@@ -1,0 +1,13 @@
+{
+  "question": "Can I put my secret key in frontend environment variables?",
+  "response_english_translation": "No. Frontend code is distributed with the application, so the secret key must not be placed in a browser or other distributed application. Use it only in server-side components you control. Whether a secret key bypasses RLS depends on whether the request carries a user access token: without one it bypasses RLS; with one, the request follows the signed-in user’s RLS policies.",
+  "translation_disclosure": "Assistant translation of a real Chinese model response from the original project; not a newly generated English model response.",
+  "source_original_draft_sha256": "1d61ffd5c27e94b0eaab4ba41d1bc11a41e2e47b77dfa7ffeadccf01cbc2b1a9",
+  "source_attempt_date": "2026-10-29",
+  "source_model": "gpt-6-luna",
+  "source_run_id": "b729a4f6-21cc-49b1-a935-6959b449cc4c",
+  "source_segment_ids": [
+    "57a134af9256e047477b",
+    "3c1260041656e577e619"
+  ]
+}

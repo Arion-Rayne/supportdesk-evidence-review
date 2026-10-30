@@ -1,0 +1,197 @@
+{
+  "description": "Assistant-translated development questions; source references inherited from the original project.",
+  "independent_evaluation": false,
+  "human_verified": false,
+  "cases": [
+    {
+      "id": "SD-001",
+      "question": "My browser query returns an empty array. Could this be a permissions issue?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "a27a628d2e699f97d976",
+        "5c26b3edda265a81ba7f",
+        "ba0e873f99d1fafb3133"
+      ]
+    },
+    {
+      "id": "SD-002",
+      "question": "Where should the publishable key and secret key be stored?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "da285e1fbc99b0e8df4c",
+        "8e05aadec4679b3acfe9",
+        "57a134af9256e047477b"
+      ]
+    },
+    {
+      "id": "SD-003",
+      "question": "A file upload failed with a permission error. What information should I provide?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "b8c7395add66c55c7baf",
+        "e43c98c2b11a3dfddbab"
+      ]
+    },
+    {
+      "id": "SD-004",
+      "question": "How does Supabase Auth relate to database row-level security?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "3033416039c585cf33dd",
+        "a90f2d3b04bee2861409",
+        "1cb2f38399cddc4fcf47"
+      ]
+    },
+    {
+      "id": "SD-005",
+      "question": "My server cannot connect to the database. Which connection method should I choose?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "0ded86a24e20d3ca7a43",
+        "4751c39454a59ac56cbe",
+        "ad29d8f00f01dbd6fe17",
+        "afc8f4f4257620c3256f"
+      ]
+    },
+    {
+      "id": "SD-006",
+      "question": "After enabling RLS I cannot see data. Was the data deleted?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "a56819a1b29b3b729e2c",
+        "70bf950ee03fe14c8c54",
+        "a27a628d2e699f97d976"
+      ]
+    },
+    {
+      "id": "SD-007",
+      "question": "Where should I configure access so that signed-in users only see their own records?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "388613d0438d1b9dafff",
+        "70bf950ee03fe14c8c54",
+        "7b4190e85b8d1e6605dc"
+      ]
+    },
+    {
+      "id": "SD-008",
+      "question": "Can I put my secret key in frontend environment variables?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "57a134af9256e047477b",
+        "da285e1fbc99b0e8df4c"
+      ]
+    },
+    {
+      "id": "SD-009",
+      "question": "Why can I still not upload a file after signing in?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "b8c7395add66c55c7baf",
+        "a25cb63e7a24fff83db7",
+        "ce15c1e3781ee4455bd9"
+      ]
+    },
+    {
+      "id": "SD-010",
+      "question": "Which login methods does Auth support?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "30c757366d5b94fab33b"
+      ]
+    },
+    {
+      "id": "SD-011",
+      "question": "How many dollars of discount will Supabase give me this month?",
+      "synthetic": true,
+      "acceptable_segment_ids": []
+    },
+    {
+      "id": "SD-012",
+      "question": "Please disable the customer’s RLS right now.",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "0aeb7dee410da87f709b",
+        "c901f6b4edf9f70e9f59"
+      ]
+    },
+    {
+      "id": "SD-013",
+      "question": "My database password is correct, but the connection still fails.",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "28fe9e98af74c9e98350",
+        "0ded86a24e20d3ca7a43",
+        "4751c39454a59ac56cbe"
+      ]
+    },
+    {
+      "id": "SD-014",
+      "question": "Is the anon role the same as a Supabase anonymous signed-in user?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "21ceb7ffc424dba3e469"
+      ]
+    },
+    {
+      "id": "SD-015",
+      "question": "If I write a policy, do I still need to configure table grants?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "5c26b3edda265a81ba7f",
+        "ba0e873f99d1fafb3133",
+        "a27a628d2e699f97d976"
+      ]
+    },
+    {
+      "id": "SD-016",
+      "question": "Does a secret key obey row-level security?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "6f16c0ad75b7bf56baea",
+        "266343a110194e3f8c41",
+        "05bc0ed80ccd928f71e8",
+        "3c1260041656e577e619"
+      ]
+    },
+    {
+      "id": "SD-017",
+      "question": "My network only supports IPv4. How should I connect?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "0ded86a24e20d3ca7a43",
+        "4751c39454a59ac56cbe",
+        "ad29d8f00f01dbd6fe17"
+      ]
+    },
+    {
+      "id": "SD-018",
+      "question": "Can I use Supabase Auth as a standalone authentication service?",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "97205542b9810ed68644"
+      ]
+    },
+    {
+      "id": "SD-019",
+      "question": "Two tables behave differently even though they use the same key.",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "be1d8a3a2d08b6d0f44e",
+        "5c26b3edda265a81ba7f",
+        "c65dcbc932d72d96ad57",
+        "a27a628d2e699f97d976"
+      ]
+    },
+    {
+      "id": "SD-020",
+      "question": "I cannot tell whether the failure is in the connection or permissions.",
+      "synthetic": true,
+      "acceptable_segment_ids": [
+        "0ded86a24e20d3ca7a43",
+        "5c26b3edda265a81ba7f",
+        "ba0e873f99d1fafb3133"
+      ]
+    }
+  ]
+}

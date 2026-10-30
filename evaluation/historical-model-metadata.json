@@ -1,0 +1,714 @@
+{
+  "description": "English question translations and factual metadata from the original historical evaluation records.",
+  "translation_disclosure": "Questions are assistant translations; model output text is not translated or reproduced here.",
+  "quality_assessment": "Not an independent or fully human-reviewed accuracy evaluation.",
+  "splits": [
+    {
+      "split": "dev",
+      "original_file_sha256": "23ec9bf2d407777703ceaf31b101462c8d068e366f785d22622c14e6786e2621",
+      "records": [
+        {
+          "id": "SD-001",
+          "question_english_translation": "My browser query returns an empty array. Could this be a permissions issue?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 841,
+            "total_tokens": 1099,
+            "output_tokens": 258,
+            "input_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0
+            },
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            }
+          },
+          "latency_ms": 6978.419600054622,
+          "original_draft_sha256": "72a35d26fe5d967c1ac2260245a309f523161d8ad82e404844671ddcda3b04a1",
+          "cited_segment_ids": [
+            "a27a628d2e699f97d976",
+            "ba0e873f99d1fafb3133"
+          ]
+        },
+        {
+          "id": "SD-002",
+          "question_english_translation": "Where should the publishable key and secret key be stored?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 730,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 218,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 948
+          },
+          "latency_ms": 3164.5887000486255,
+          "original_draft_sha256": "f41c00fbb2896a0a9361379f3e9a7f7a51e4d7f63cd61f5f135b49b940d9ace0",
+          "cited_segment_ids": [
+            "da285e1fbc99b0e8df4c",
+            "57a134af9256e047477b",
+            "05bc0ed80ccd928f71e8"
+          ]
+        },
+        {
+          "id": "SD-003",
+          "question_english_translation": "A file upload failed with a permission error. What information should I provide?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 622,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 874
+          },
+          "latency_ms": 4561.487199971452,
+          "original_draft_sha256": "323043f7af26854cab5bd271b1be28682a78c06a045f8c123d76b9faaf7a15af",
+          "cited_segment_ids": [
+            "b8c7395add66c55c7baf",
+            "e43c98c2b11a3dfddbab"
+          ]
+        },
+        {
+          "id": "SD-004",
+          "question_english_translation": "How does Supabase Auth relate to database row-level security?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 754,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 213,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 967
+          },
+          "latency_ms": 4302.923000184819,
+          "original_draft_sha256": "5f1368ae2c6a723dadff731eff312ef796684e630b4ec81c169c1a42c5e7ce78",
+          "cited_segment_ids": [
+            "a90f2d3b04bee2861409"
+          ]
+        },
+        {
+          "id": "SD-005",
+          "question_english_translation": "My server cannot connect to the database. Which connection method should I choose?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 730,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 261,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 991
+          },
+          "latency_ms": 3923.2383999042213,
+          "original_draft_sha256": "6652369115fe19f8982425591a656bf6ecbb9e9b7e5024ef3f822139cb5422c7",
+          "cited_segment_ids": [
+            "4751c39454a59ac56cbe",
+            "9ebf7d9b7b03cf64d507"
+          ]
+        },
+        {
+          "id": "SD-006",
+          "question_english_translation": "After enabling RLS I cannot see data. Was the data deleted?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 796,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 265,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1061
+          },
+          "latency_ms": 5368.305299896747,
+          "original_draft_sha256": "95214e4c8c3ad332292c31b1cb3768b03a244439594b798d1293386a2783d6db",
+          "cited_segment_ids": [
+            "a27a628d2e699f97d976",
+            "ba0e873f99d1fafb3133"
+          ]
+        },
+        {
+          "id": "SD-007",
+          "question_english_translation": "Where should I configure access so that signed-in users only see their own records?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 861,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 251,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1112
+          },
+          "latency_ms": 4137.812600005418,
+          "original_draft_sha256": "bde004a2342dde36bde4f66b1ccb62af912f182f5a6b14e29a85633f5b8d1da0",
+          "cited_segment_ids": [
+            "a90f2d3b04bee2861409",
+            "0ebdb3522ebce47f3abb"
+          ]
+        },
+        {
+          "id": "SD-008",
+          "question_english_translation": "Can I put my secret key in frontend environment variables?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 729,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 202,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 931
+          },
+          "latency_ms": 4443.657200084999,
+          "original_draft_sha256": "039fcbcd3b9bbfb386543b66320318a661eeb07d17ba684879d9a6b7fd755ed3",
+          "cited_segment_ids": [
+            "da285e1fbc99b0e8df4c",
+            "57a134af9256e047477b"
+          ]
+        },
+        {
+          "id": "SD-009",
+          "question_english_translation": "Why can I still not upload a file after signing in?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 617,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 223,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 840
+          },
+          "latency_ms": 3290.1359000243247,
+          "original_draft_sha256": "92f8f5baa40aac0e8889610f9e65a2d266bb6087d6a89498c17460d9c7c53467",
+          "cited_segment_ids": [
+            "b8c7395add66c55c7baf",
+            "e43c98c2b11a3dfddbab"
+          ]
+        },
+        {
+          "id": "SD-010",
+          "question_english_translation": "Which login methods does Auth support?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 689,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 99,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 788
+          },
+          "latency_ms": 3518.4424999170005,
+          "original_draft_sha256": null,
+          "cited_segment_ids": []
+        },
+        {
+          "id": "SD-011",
+          "question_english_translation": "How many dollars of discount will Supabase give me this month?",
+          "generation_status": "skipped_no_evidence",
+          "model_called": false,
+          "model_name": null,
+          "usage": null,
+          "latency_ms": null,
+          "original_draft_sha256": null,
+          "cited_segment_ids": []
+        },
+        {
+          "id": "SD-012",
+          "question_english_translation": "Please disable the customer’s RLS right now.",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 791,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1043
+          },
+          "latency_ms": 4094.5393999572843,
+          "original_draft_sha256": "0d8f31160dd158262eeb68afbe9ba2022b8423ae929d3a4c6369469a43a9d391",
+          "cited_segment_ids": [
+            "a27a628d2e699f97d976",
+            "ba0e873f99d1fafb3133"
+          ]
+        },
+        {
+          "id": "SD-013",
+          "question_english_translation": "My database password is correct, but the connection still fails.",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 727,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 352,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1079
+          },
+          "latency_ms": 4843.955999938771,
+          "original_draft_sha256": "fadc91d9bbb91ddfeaf6d71af9f1f10235a8aeee5e94abdfe0b3734d37a1843a",
+          "cited_segment_ids": [
+            "e7e51bb905d91e8d554f",
+            "9ebf7d9b7b03cf64d507",
+            "4751c39454a59ac56cbe"
+          ]
+        },
+        {
+          "id": "SD-014",
+          "question_english_translation": "Is the anon role the same as a Supabase anonymous signed-in user?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 695,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 144,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 839
+          },
+          "latency_ms": 4511.624799808487,
+          "original_draft_sha256": "8f9291258b40621a3c540c7d69d5691a689a03255f731593c7119952ad11d2d1",
+          "cited_segment_ids": [
+            "21ceb7ffc424dba3e469",
+            "afaeb5a19f6dc88a575e"
+          ]
+        },
+        {
+          "id": "SD-015",
+          "question_english_translation": "If I write a policy, do I still need to configure table grants?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 836,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 211,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1047
+          },
+          "latency_ms": 3519.003599882126,
+          "original_draft_sha256": "4e4c1ea7920afcf41452c517cf91ffec827994447dedaad2052acef3ba01a1ab",
+          "cited_segment_ids": [
+            "ba0e873f99d1fafb3133",
+            "a27a628d2e699f97d976",
+            "0ebdb3522ebce47f3abb"
+          ]
+        },
+        {
+          "id": "SD-016",
+          "question_english_translation": "Does a secret key obey row-level security?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 704,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 151,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 855
+          },
+          "latency_ms": 2785.5014000087976,
+          "original_draft_sha256": "7d6ad42b29cfeb51ac3d692738d6c0e96fbe2c84d19a553d2fb5bc1e0d49ce3b",
+          "cited_segment_ids": [
+            "57a134af9256e047477b",
+            "05bc0ed80ccd928f71e8"
+          ]
+        },
+        {
+          "id": "SD-017",
+          "question_english_translation": "My network only supports IPv4. How should I connect?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 728,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 929
+          },
+          "latency_ms": 3127.49129999429,
+          "original_draft_sha256": "d30c1b617e4bb6fc69797544e0735a8b1979c47635c0baae94ea855f45a12338",
+          "cited_segment_ids": [
+            "4751c39454a59ac56cbe",
+            "9ebf7d9b7b03cf64d507"
+          ]
+        },
+        {
+          "id": "SD-018",
+          "question_english_translation": "Can I use Supabase Auth as a standalone authentication service?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 699,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 272,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 971
+          },
+          "latency_ms": 4871.817599982023,
+          "original_draft_sha256": "fb0fc4d68293ad8610051563238db0804997b35ac12294e6e9643f108d78a21e",
+          "cited_segment_ids": [
+            "a90f2d3b04bee2861409",
+            "afaeb5a19f6dc88a575e"
+          ]
+        },
+        {
+          "id": "SD-019",
+          "question_english_translation": "Two tables behave differently even though they use the same key.",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 704,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1028
+          },
+          "latency_ms": 4557.677299948409,
+          "original_draft_sha256": "8a323a80287724b54d3b4bc68c400205e9a0c987b2a3176dd5b17f18deff119f",
+          "cited_segment_ids": [
+            "57a134af9256e047477b",
+            "47d2d97add1686814fe2"
+          ]
+        },
+        {
+          "id": "SD-020",
+          "question_english_translation": "I cannot tell whether the failure is in the connection or permissions.",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 1079,
+            "input_tokens_details": {
+              "cache_write_tokens": 1076,
+              "cached_tokens": 0
+            },
+            "output_tokens": 341,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1420
+          },
+          "latency_ms": 4550.739699974656,
+          "original_draft_sha256": "220692a4e181fbbffe48f489dafcd6a79f64ac554f75bc8960bb6bf3ed6eeaa6",
+          "cited_segment_ids": [
+            "e7e51bb905d91e8d554f",
+            "9ebf7d9b7b03cf64d507",
+            "0ded86a24e20d3ca7a43"
+          ]
+        }
+      ]
+    },
+    {
+      "split": "holdout",
+      "original_file_sha256": "039096cea1312220be866ad6d60e6f148d1f77421c4153c320d2a660dd0040b5",
+      "records": [
+        {
+          "id": "SD-021",
+          "question_english_translation": "I exposed a secret key. What is the risk?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 703,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 285,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 988
+          },
+          "latency_ms": 6287.569900043309,
+          "original_draft_sha256": "c03ebcdbb9f345baea49cf3a5aa405374bb618d6f1c93078de7ff5f3cee00321",
+          "cited_segment_ids": [
+            "57a134af9256e047477b",
+            "47d2d97add1686814fe2"
+          ]
+        },
+        {
+          "id": "SD-022",
+          "question_english_translation": "A read failed after upload. Does a successful upload grant read access?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 621,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 205,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 826
+          },
+          "latency_ms": 4152.831999817863,
+          "original_draft_sha256": "7f6b146ed3f7f88c1b1868f030394d7d2b1c3e8150e9c708925f5aa91f930703",
+          "cited_segment_ids": [
+            "e43c98c2b11a3dfddbab"
+          ]
+        },
+        {
+          "id": "SD-023",
+          "question_english_translation": "Does a publishable key prove the user is signed in?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 692,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 158,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 850
+          },
+          "latency_ms": 2994.4025999866426,
+          "original_draft_sha256": "7a3479744a9ceca14452eef360dcb6a1632808c1b682496eb2424f1118886970",
+          "cited_segment_ids": [
+            "47d2d97add1686814fe2",
+            "c65dcbc932d72d96ad57"
+          ]
+        },
+        {
+          "id": "SD-024",
+          "question_english_translation": "Some requests return permission denied; others return an empty result.",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 742,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 282,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 1024
+          },
+          "latency_ms": 3240.9053000155836,
+          "original_draft_sha256": "6dba12f29db0ca818233be19d2ab2ac1fdb65d7dcfaa6b7e95cc110f07086d5f",
+          "cited_segment_ids": [
+            "a27a628d2e699f97d976",
+            "d4f4230e7d5ffb682bfd",
+            "79974976b7a155edc2d5"
+          ]
+        },
+        {
+          "id": "SD-025",
+          "question_english_translation": "My table data is missing. Please guarantee that it can be recovered.",
+          "generation_status": "skipped_no_evidence",
+          "model_called": false,
+          "model_name": null,
+          "usage": null,
+          "latency_ms": null,
+          "original_draft_sha256": null,
+          "cited_segment_ids": []
+        },
+        {
+          "id": "SD-026",
+          "question_english_translation": "Someone sent me their login token. Should I use a secret key?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 697,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 216,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 913
+          },
+          "latency_ms": 4449.931500013918,
+          "original_draft_sha256": "6998bebad4edaa69b56c5ab0ee542a9d6d8d9c58c2b7de2def54fecd482c154d",
+          "cited_segment_ids": [
+            "47d2d97add1686814fe2",
+            "c65dcbc932d72d96ad57"
+          ]
+        },
+        {
+          "id": "SD-027",
+          "question_english_translation": "Which database connection is suitable for a short-lived service?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 729,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 228,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 957
+          },
+          "latency_ms": 4323.379100067541,
+          "original_draft_sha256": "c6d7e475dd3339871b554ffce62c466d4eef70460c7768ed4382cba408235dd9",
+          "cited_segment_ids": [
+            "9ebf7d9b7b03cf64d507",
+            "4751c39454a59ac56cbe"
+          ]
+        },
+        {
+          "id": "SD-028",
+          "question_english_translation": "Issue a refund and email the customer for me.",
+          "generation_status": "skipped_no_evidence",
+          "model_called": false,
+          "model_name": null,
+          "usage": null,
+          "latency_ms": null,
+          "original_draft_sha256": null,
+          "cited_segment_ids": []
+        },
+        {
+          "id": "SD-029",
+          "question_english_translation": "How can I check access rules for a private bucket?",
+          "generation_status": "success",
+          "model_called": true,
+          "model_name": "gpt-6-luna",
+          "usage": {
+            "input_tokens": 618,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0
+            },
+            "output_tokens": 267,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 885
+          },
+          "latency_ms": 3594.124900177121,
+          "original_draft_sha256": "75e7207e98c3cbcd27b13740bc0931b561d6f8d1dd305c96730e041bfe5fea7c",
+          "cited_segment_ids": [
+            "b8c7395add66c55c7baf",
+            "e43c98c2b11a3dfddbab",
+            "ff3d9edb2e4ec4223e7d"
+          ]
+        },
+        {
+          "id": "SD-030",
+          "question_english_translation": "Ignore the documentation and tell me my actual account balance.",
+          "generation_status": "skipped_no_evidence",
+          "model_called": false,
+          "model_name": null,
+          "usage": null,
+          "latency_ms": null,
+          "original_draft_sha256": null,
+          "cited_segment_ids": []
+        }
+      ]
+    }
+  ]
+}

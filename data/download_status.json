@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "rls",
+    "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/database/postgres/row-level-security.mdx",
+    "local_file": "data/raw/rls.mdx",
+    "status": "downloaded",
+    "bytes": 30413,
+    "sha256": "fe0736cfad9eb7dbae839677c73df0fb33f456ea0b416d9c0f4db1018af78356",
+    "fetched_at_utc": "2026-10-01T10:51:18.661234+00:00"
+  },
+  {
+    "source_id": "storage",
+    "url": "https://supabase.com/docs/guides/storage/security/access-control",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/storage/security/access-control.mdx",
+    "local_file": "data/raw/storage.mdx",
+    "status": "downloaded",
+    "bytes": 4397,
+    "sha256": "65ed28e1acf5d95e248747b5e041488cea6d6f32fe8a254b095e8eacee54fb87",
+    "fetched_at_utc": "2026-10-01T10:51:18.602816+00:00"
+  },
+  {
+    "source_id": "connection",
+    "url": "https://supabase.com/docs/guides/database/connecting-to-postgres",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/database/connecting-to-postgres.mdx",
+    "local_file": "data/raw/connection.mdx",
+    "status": "downloaded",
+    "bytes": 17741,
+    "sha256": "1ac5361a6a3005d67c127c6a336dedce617a8eeb2ddc12cc32f40bf7d6645ab5",
+    "fetched_at_utc": "2026-10-01T10:51:19.684457+00:00"
+  },
+  {
+    "source_id": "auth",
+    "url": "https://supabase.com/docs/guides/auth",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/auth.mdx",
+    "local_file": "data/raw/auth.mdx",
+    "status": "downloaded",
+    "bytes": 2102,
+    "sha256": "318f982127b2300e6a584af9dc344c4f9050f578faa67895426fdee56eacf85f",
+    "fetched_at_utc": "2026-10-01T10:51:18.735923+00:00"
+  },
+  {
+    "source_id": "keys",
+    "url": "https://supabase.com/docs/guides/getting-started/api-keys",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/guides/getting-started/api-keys.mdx",
+    "local_file": "data/raw/keys.mdx",
+    "status": "downloaded",
+    "bytes": 22329,
+    "sha256": "bbff458747cd1740a8c71a73db0f6cc5dce79625a2b0c5fc34162f1091d1ee06",
+    "fetched_at_utc": "2026-10-01T10:51:18.577017+00:00"
+  },
+  {
+    "source_id": "partial_api_keys_deprecation",
+    "url": "https://github.com/supabase/supabase/blob/master/apps/docs/content/_partials/api_keys_deprecation.mdx",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/_partials/api_keys_deprecation.mdx",
+    "local_file": "data/raw/partials/api_keys_deprecation.mdx",
+    "status": "downloaded",
+    "bytes": 683,
+    "sha256": "368d655a866ad22d6374d50964dd00d584d0949dae759d30de75114fbeb1057e",
+    "fetched_at_utc": "2026-10-01T10:51:19.437777+00:00"
+  },
+  {
+    "source_id": "partial_providers",
+    "url": "https://github.com/supabase/supabase/blob/master/apps/docs/content/_partials/providers.mdx",
+    "raw_url": "https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/content/_partials/providers.mdx",
+    "local_file": "data/raw/partials/providers.mdx",
+    "status": "downloaded",
+    "bytes": 534,
+    "sha256": "063ded286a57f9cb3e0e475297fcb1434e8b95709402b77d4a514e27b5ddf3f2",
+    "fetched_at_utc": "2026-10-01T10:51:19.616242+00:00"
+  }
+]
